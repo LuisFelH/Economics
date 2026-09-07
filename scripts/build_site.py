@@ -22,6 +22,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+
 import mistune
 import pandas as pd
 import yaml
@@ -298,13 +299,15 @@ def make_brand_assets() -> None:
     draw = ImageDraw.Draw(im)
     draw.ellipse((-160, -210, 430, 380), fill="#dfe7ec")
     draw.ellipse((930, -140, 1360, 290), fill="#eadbd5")
-    font_bold = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-    font_reg = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-    title_font = ImageFont.truetype(font_bold, 66)
+
+    
+    font_bold = "/Library/Fonts/Helvetica.ttc"
+    font_reg = "/Library/Fonts/Helvetica.ttc"
+    title_font = ImageFont.truetype(font_bold, 66, index=1)
     sub_font = ImageFont.truetype(font_reg, 31)
-    eyebrow_font = ImageFont.truetype(font_bold, 23)
+    eyebrow_font = ImageFont.truetype(font_bold, 23, index=1)
     draw.rounded_rectangle((70, 70, 150, 150), radius=22, fill="#193044")
-    mu_font = ImageFont.truetype(font_bold, 27)
+    mu_font = ImageFont.truetype(font_bold, 27, index=1)
     draw.text((110, 110), "MU", anchor="mm", font=mu_font, fill="white")
     draw.text((70, 220), "PORTAFOLIO DE ECONOMÍA APLICADA", font=eyebrow_font, fill="#b4573d")
     draw.multiline_text((70, 270), "Macroeconomía, política\nmonetaria y datos", font=title_font, fill="#162634", spacing=8)
@@ -535,7 +538,7 @@ def main() -> int:
 
     if not args.skip_assets:
         run_script(ROOT / "scripts/generate_site_assets.py")
-        run_script(ROOT / "scripts/build_public_cv.py")
+  #      run_script(ROOT / "scripts/build_public_cv.py")
     make_brand_assets()
     contexts = build_contexts()
     clean_docs()
