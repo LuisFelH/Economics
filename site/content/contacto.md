@@ -1,16 +1,16 @@
 <div class="contact-grid">
   <section class="contact-card">
-    <p class="eyebrow">Contacto profesional</p>
-    <h2>Canales directos</h2>
-    <p class="muted">Para comentarios sobre los proyectos, oportunidades de investigación o colaboración en economía aplicada.</p>
-    <a class="contact-link" href="mailto:mulloav@fen.uchile.cl"><span>Email</span><span>mulloav@fen.uchile.cl ↗</span></a>
-    <a class="contact-link" href="tel:+56993103278"><span>Teléfono</span><span>+56 9 9310 3278 ↗</span></a>
-    <a class="contact-link" href="https://www.linkedin.com/in/mauricio-andr%C3%A9s-ulloa-valdivia" target="_blank" rel="noopener"><span>LinkedIn</span><span>Perfil profesional ↗</span></a>
+    <p class="eyebrow">Proffesional contact</p>
+    <h2>Direct channels</h2>
+    <p class="muted">For commments on projects, research opportunities, or collaboration in applied economics.</p>
+    <a class="contact-link" href="mailto:luis.felipehuaillav@student.kuleuven.be"><span>Email</span><span>luis.felipehuailla@student.kuleuven.be ↗</span></a>
+    <a class="contact-link" href="tel:+32495371802"><span>Teléfono</span><span>+32 495 37 18 02 ↗</span></a>
+    <a class="contact-link" href="https://www.linkedin.com/in/luis-miguel-felipe-huailla-702072129" target="_blank" rel="noopener"><span>LinkedIn</span><span>Perfil profesional ↗</span></a>
   </section>
   <section class="contact-card">
-    <p class="eyebrow">Sobre este sitio</p>
-    <h2>Portafolio personal</h2>
-    <p>Los análisis, interpretaciones y errores contenidos en este sitio son de responsabilidad personal. No representan necesariamente la posición de empleadores, universidades o instituciones con las que haya colaborado.</p>
-    <p class="muted">El sitio publica resultados y documentación metodológica; el código de estimación se mantiene separado de la capa pública.</p>
+    <p class="eyebrow">About the site</p>
+    <h2>Personal portfolio</h2>
+    <p>The analyses, interpretations, and errors contained on this site are my personal responsibility. They do not necessarily represent the views of employers, universities, or institutions with which I have collaborated.</p>
+    <p class="muted">The site publishes results and methodological documentation; the estimation code is kept separate from the public-facing layer.</p>
   </section>
 </div>
