@@ -33,7 +33,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
 DOCS = ROOT / "docs"
-SITE_URL = "https://mulloav3007.github.io/Economics/"
+SITE_URL = "https://luisfelh.github.io/Economics/"
 
 MONTHS_ES = {
     1: "enero", 2: "febrero", 3: "marzo", 4: "abril", 5: "mayo", 6: "junio",
@@ -291,7 +291,7 @@ def render_markdown(path: Path, context: dict[str, Any], markdown: mistune.Markd
 def make_brand_assets() -> None:
     img_dir = SITE / "assets/img"
     img_dir.mkdir(parents=True, exist_ok=True)
-    favicon = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#193044"/><stop offset="1" stop-color="#416c8a"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#g)"/><text x="32" y="39" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="white">MU</text></svg>"""
+    favicon = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#193044"/><stop offset="1" stop-color="#416c8a"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#g)"/><text x="32" y="39" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="white">LFH</text></svg>"""
     (img_dir / "favicon.svg").write_text(favicon, encoding="utf-8")
 
     w, h = 1200, 630
@@ -308,7 +308,7 @@ def make_brand_assets() -> None:
     eyebrow_font = ImageFont.truetype(font_bold, 23, index=1)
     draw.rounded_rectangle((70, 70, 150, 150), radius=22, fill="#193044")
     mu_font = ImageFont.truetype(font_bold, 27, index=1)
-    draw.text((110, 110), "MU", anchor="mm", font=mu_font, fill="white")
+    draw.text((110, 110), "LFH", anchor="mm", font=mu_font, fill="white")
     draw.text((70, 220), "PORTAFOLIO DE ECONOMÍA APLICADA", font=eyebrow_font, fill="#b4573d")
     draw.multiline_text((70, 270), "Macroeconomía, política\nmonetaria y datos", font=title_font, fill="#162634", spacing=8)
     draw.text((72, 505), "Mauricio Ulloa · Chile y América Latina", font=sub_font, fill="#66727f")
