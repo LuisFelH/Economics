@@ -309,9 +309,9 @@ def make_brand_assets() -> None:
     draw.rounded_rectangle((70, 70, 150, 150), radius=22, fill="#193044")
     mu_font = ImageFont.truetype(font_bold, 27, index=1)
     draw.text((110, 110), "LFH", anchor="mm", font=mu_font, fill="white")
-    draw.text((70, 220), "PORTAFOLIO DE ECONOMÍA APLICADA", font=eyebrow_font, fill="#b4573d")
+    draw.text((70, 220), "PORTFOLIO OF APPIED ECONOMICS", font=eyebrow_font, fill="#b4573d")
     draw.multiline_text((70, 270), "Macroeconomía, política\nmonetaria y datos", font=title_font, fill="#162634", spacing=8)
-    draw.text((72, 505), "Mauricio Ulloa · Chile y América Latina", font=sub_font, fill="#66727f")
+    draw.text((72, 505), "Luis Felipe Huailla · Europe and Latam", font=sub_font, fill="#66727f")
     im.save(img_dir / "og-cover.png", quality=94)
 
 
@@ -405,8 +405,8 @@ def build_pages(contexts: dict[str, Any]) -> None:
 
     # Home
     home = env.get_template("home.html").render(
-        title="Inicio",
-        description="Portafolio de economía aplicada de Mauricio Ulloa: macroeconomía, política monetaria, actividad y macrofinanzas para Chile y América Latina.",
+        title="Home",
+        description="Portfolio of applied economics of Luis Felipe: Econometrics, industrial organisation, regulation, monetary policy, and macro-finance of Europe and Latam.",
         canonical_url=SITE_URL,
         og_image_url=SITE_URL + "assets/img/og-cover.png",
         base_path="",
@@ -421,27 +421,27 @@ def build_pages(contexts: dict[str, Any]) -> None:
     # Standard pages
     page_specs = {
         "proyectos": {
-            "title": "Proyectos",
-            "description": "Proyectos de nowcasting, política monetaria, tasas, tipo de cambio y condiciones financieras.",
-            "eyebrow": "Portafolio",
-            "page_title": "Proyectos",
-            "subtitle": "Una colección estandarizada de herramientas aplicadas, notas técnicas y monitores macroeconómicos.",
+            "title": "Projects",
+            "description": "A standardised collection of applied tools, technical notes, and macroeconomic monitors.",
+            "eyebrow": "Portfolio",
+            "page_title": "Projects",
+            "subtitle": "A standardised collection of applied tools, technical notes, and macroeconomic monitors.",
             "active_nav": "proyectos",
         },
         "cv": {
-            "title": "Currículum",
-            "description": "Trayectoria académica y profesional de Mauricio Ulloa, economista y Magíster en Análisis Económico.",
-            "eyebrow": "Trayectoria",
-            "page_title": "Currículum",
-            "subtitle": "Formación, experiencia de investigación y herramientas para economía aplicada.",
+            "title": "Curriculum vitae",
+            "description": "Academic and professional profile of Luis Felipe Huailla, economist, holder of a Master’s degree in Economics and currently pursuing a Master of Research in Economics.",
+            "eyebrow": "Career path",
+            "page_title": "Curriculum",
+            "subtitle": "Training, research experience, and tools for applied economics.",
             "active_nav": "cv",
         },
         "contacto": {
-            "title": "Contacto",
-            "description": "Contacto profesional de Mauricio Ulloa.",
-            "eyebrow": "Contacto",
-            "page_title": "Conversemos",
-            "subtitle": "Comentarios sobre los proyectos, investigación aplicada y colaboración profesional.",
+            "title": "Contact",
+            "description": "Professional contact of Luis Felipe Huailla.",
+            "eyebrow": "Contact",
+            "page_title": "Let's connect",
+            "subtitle": "Inquiries about projects, research or collaboration.",
             "active_nav": "contacto",
         },
     }
@@ -502,20 +502,21 @@ def build_pages(contexts: dict[str, Any]) -> None:
     # 404 page.
     not_found_content = """<div class="panel reading"><p class="eyebrow">Error 404</p><h2>La página no existe o cambió de dirección.</h2><p>Regresa al índice de proyectos para continuar navegando.</p><a class="button button-primary" href="/Economics/proyectos.html">Ver proyectos</a></div>"""
     not_found = env.get_template("page.html").render(
-        title="Página no encontrada",
-        description="Página no encontrada.",
+        title="Page not found",
+        description="Page not found",
         canonical_url=SITE_URL + "404.html",
         og_image_url=SITE_URL + "assets/img/og-cover.png",
         base_path="",
         active_nav="",
         body_class="page-404",
         eyebrow="404",
-        page_title="Página no encontrada",
-        subtitle="El enlace puede haber cambiado durante la reorganización del portafolio.",
+        page_title="Page not found",
+        subtitle="The link may have changed during the portfolio reorganisation.",
         actions="",
         content_html=not_found_content,
     )
     write_text(DOCS / "404.html", not_found)
+
 
     # Metadata and GitHub Pages support.
     write_text(DOCS / ".nojekyll", "")

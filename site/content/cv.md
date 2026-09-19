@@ -2,16 +2,17 @@
   <div class="panel">
     <p class="eyebrow">Resumen</p>
     <h2>Economist oriented to applied economics</h2>
-    <p>Economist with professional experience in investment analysis, and quantitative economic research, currently pursuing a Master of research at KU Leuven. Strong background in applied microeconomics, industrial organization, econometrics, financial economics, and competition policy, complemented by a growing interest in macroeconometrics and the empirical analysis of macroeconomic fluctuations. Experienced in working with large financial datasets and translating empirical evidence into policy recommendations. Proficient in quantitative methods, statistical programming, and economic modelling. Seeking research-oriented positions in academia, public institutions, or the private sector where rigorous empirical analysis supports evidence-based decision-making.</p>
-    <p>Main interest in applied econometrics, industrial organisation, microeconometircs, macroeconometrics, monetary policy, competition policy, financial economics, and spatial economics.</p>
+    <p>[To be changed and include a better explanation] I am an M.Res. student in Economics at KU Leuven with research interests in macroeconometrics, microeconometrics, industrial organisation, time-series econometrics, competition and regulation, and monetary economics. I am particularly interested in ... , Growth-at-Risk, Bayesian VARs, and DSGE models.
+
+My experience combines empirical research, microeconometric replication, data engineering, reproducible workflows, statistical visualization, and regional geospatial analysis. I work primarily with Stata, R, MATLAB, and LaTeX.</p>
     <div class="actions"><a class="button button-primary" href="assets/files/cv-mauricio-ulloa.pdf">Download CV</a></div>
   </div>
   <div class="panel">
     <p class="eyebrow">Education</p>
     <ul class="clean-list">
-      <li><strong>M.Sc. in Advanced studies in Economics</strong><br><span class="muted">KU Leuven - Belgium · 2025–Present</span></li>
-      <li><strong>M.Sc. in Economics</strong><br><span class="muted">KU Leuven - Belgium · 2023–2024 </span></li>
-      <li><strong>B.Sc. in Economics</strong><br><span class="muted">Universidad del Pacífico - Peru· 2013–2019</span></li>
+      <li><strong>M.Sc. in Advanced studies (M.Res.) in Economics</strong><br><span class="muted">KU Leuven - Leuven, Belgium · September 2025–Present</span></li>
+      <li><strong>M.Sc. in Economics</strong><br><span class="muted">KU Leuven - Leuven, Belgium · September 2023 – September 2024 </span></li>
+      <li><strong>B.Sc. in Economics</strong><br><span class="muted">Universidad del Pacífico - Lima, Peru· March 2013 – June 2019</span></li>
     </ul>
   </div>
 </div>
@@ -28,21 +29,21 @@
 <div class="cv-timeline">
   <div class="cv-item"><div class="cv-date">2025-Present</div><div><h3>M.Sc. in Advanced studies in economics · KU Leuven - Belgium</h3><p>Coursework: Advanced Macroeconomics, Advanced Microeconomics, Advanced Econometrics, Advanced Applied Econometrics, Dynamic Methods. Master's Thesis (ongoing): <em>"Effects of State Aid in Tech Enterprises to Maintain Competitiveness: A Case for EU with a Single Knowledge Market in Europe"</em>.</p></div></div>
   
-  <div class="cv-item"><div class="cv-date">2023 - 2024</div><div><h3>M.Sc. in Economics · KU Leuven - Belgium· </h3><p>GPA: 13,9/20,0 (Cum Laude). Coursework: Industrial Organisation, Financial Intermediation, Econometrics, Micro/Macro Theory. Thesis: <em>"Urban Sprawl in Belgium: How Does Urban Sprawl Affect Local Government Expenditure Levels"</em>.</p></div></div>
+  <div class="cv-item"><div class="cv-date">2023 - 2024</div><div><h3>M.Sc. in Economics · KU Leuven - Belgium· </h3><p>GPA: 14,9/20,0 (Cum Laude). Coursework: Industrial Organisation, Financial Intermediation, Econometrics, Micro/Macro Theory. Thesis: <em>"Urban Sprawl in Belgium: How Does Urban Sprawl Affect Local Government Expenditure Levels"</em>.</p></div></div>
   
   <div class="cv-item"><div class="cv-date">2013 - 2019</div><div><h3>B.Sc. in Economics  · Universidad del Pacífico - Peru</h3><p>Specialised in Economics and Finance. Highly quantitative degree with focus on microeconomics, macroeconomics, econometrics, applied econommics, and finance.</p></div></div>
 
-## Research projects
+## Research papers
   <div class="two-col">
   <div class="panel">
-    <p class="eyebrow">M.Sc. in Advanced studies in Economics' thesis</p>
+    <p class="eyebrow">Master of Research thesis - Ongoing</p>
     <h3>“Effects of State Aid in Tech Enterprises to Maintain Competitiveness: A Case for EU with a Single Knowledge Market in Europe”</h3>
     <p>Master's research examining how state aid influences firm competitiveness and innovation within the European Union and its implication into labour market and regional spillovers. Methods that are going to be included are Schumpeterian models, causal Inference, applied microeconometrics and macroeconometrics, panel data analysis, and spatial econometrics</p>
     <p><strong>Academic results:</strong> In process</p> </span>
   </div>
 
   <div class="panel">  
-    <p class="eyebrow">M.Sc. in Economics' Thesis</p>
+    <p class="eyebrow">Master Thesis - 2024</p>
     <h3>“Urban Sprawl in Belgium: How Does Urban Sprawl Affect Local Government Expenditure Levels”</h3>
     <p>Examine the impact of urban sprawl on municipal public expenditure in Belgium using a panel of 581 municipalities over 2003–2013. Drawing on data from Statbel, the Flemish Agency for Interior Affairs, and the OECD.Using a urban dispersion indicator based on built-up area per capita and estimated OLS and 2SLS models with regional and time fixed effects.</p>
     <p><strong>Academic result:</strong> Final grade 14/20.</p>
@@ -58,18 +59,19 @@
   <div class="skill-card"><strong>Microeconometrics</strong></div>
   <div class="skill-card"><strong>Monetary policy</strong></div>
   <div class="skill-card"><strong>Financial economics</strong></div>
-  <div class="skill-card"><strong>Competition policy</strong>></div>
+  <div class="skill-card"><strong>Competition policy </strong>></div>
   <div class="skill-card"><strong>Macroeconometrics</strong></div>
   <div class="skill-card"><strong>Spatial economics</strong></div>
 </div>
 
-## Tools
+## Technical skills
 
 <div class="skill-grid">
   <div class="skill-card"><strong>R</strong><br><span class="muted">tidyverse, ggplot2, series de tiempo, reportes reproducibles.</span></div>
+  <div class="skill-card"><strong>Stata</strong><br><span class="muted">Microeconometric replication, panel data and cross-section analysis ,data cleaning, data management, and applied econometrics.  </span></div>
   <div class="skill-card"><strong>Matlab</strong><br><span class="muted">Modelos semi-estructurales, escenarios y simulación macroeconómica.</span></div>
   <div class="skill-card"><strong>Python</strong><br><span class="muted">Procesamiento de datos, automatización, APIs y bases de gran escala.</span></div>
-  <div class="skill-card"><strong>Stata</strong><br><span class="muted">Applied econometrics, panel data, cross-section, time series, table distribution and plots.</span></div>
+
   <div class="skill-card"><strong>Datos</strong><br><span class="muted">BCCh/BDE, FRED, BIS, RIPE Atlas, CMF y fuentes administrativas.</span></div>
   <div class="skill-card"><strong>LaTeX</strong><br><span class="muted">GitHub, Git, Markdown, LaTeX, Excel y automatización de sitios.</span></div>
 </div>
@@ -90,9 +92,9 @@
 ## Languages
 
 <div class="skill-grid">
-  <div class="skill-card"><strong>English</strong><br><span class="muted">Fluent (C1). Instruction and research conducted entirely in English at the master’s level. (IELTS score:7/9)</span></div>
-  <div class="skill-card"><strong>Spanish</strong><br><span class="muted">Native.</span></div>
-  <div class="skill-card"><strong>Italian</strong><br><span class="muted">Upper-intermediate to advanced (B2-C1) developed through courses at the Italian Cultural Institute of Lima.</span></div>
-  <div class="skill-card"><strong>Dutch</strong><br><span class="muted">Elementary (A2) ongoing training at ILT, KU Leuven.</span></div>
-  <div class="skill-card"><strong>French</strong><br><span class="muted">Elementary (A2) foundational instruction during School period.</span></div>
+  <div class="skill-card"><strong>English</strong><br><span class="muted">C1 . IELTS</span></div>
+  <div class="skill-card"><strong>Spanish</strong><br><span class="muted">Native</span></div>
+  <div class="skill-card"><strong>Italian</strong><br><span class="muted">C1 CEFR</span></div>
+  <div class="skill-card"><strong>Dutch</strong><br><span class="muted">A2+ CEFR</span></div>
+  <div class="skill-card"><strong>French</strong><br><span class="muted">A2 CEFR</span></div>
 </div>
