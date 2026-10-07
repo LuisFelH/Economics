@@ -19,7 +19,7 @@ My experience combines empirical research, microeconometric replication, data en
 
 ## Professional and research experience
 <div class="cv-timeline">
-  <div class="cv-item"><div class="cv-date">2026–present</div><div><h3>Research assistant · Pablo García Silva</h3><p>Procesos reproducibles con BCCh/BDE, FRED y otras fuentes para seguimiento de actividad, tipo de cambio, tasas y proyecciones.</p></div></div>
+<!--  <div class="cv-item"><div class="cv-date">2026–present</div><div><h3>Research assistant · Pablo García Silva</h3><p>Procesos reproducibles con BCCh/BDE, FRED y otras fuentes para seguimiento de actividad, tipo de cambio, tasas y proyecciones.</p></div></div>  -->
   
   
   <div class="cv-item"><div class="cv-date">2018–2020</div><div><h3>Intern of investment of pension funds · Superintendencia de banca, seguros y APFs</h3><p>Carried out quantitative and regulatory research supporting the supervision of Peru’s pension fund system. Built and streamlined data pipelines to collect, clean, and process large financial datasets, improving the accuracy and timeliness of supervisory analyses. Applied econometric and statistical methods to assess investment strategies, portfolio allocation, and risk management practices, and conducted comparative research on international pension regulation to inform evidence-based policy decisions.</p></div></div>
@@ -29,7 +29,7 @@ My experience combines empirical research, microeconometric replication, data en
 <div class="cv-timeline">
   <div class="cv-item"><div class="cv-date">2025-Present</div><div><h3>M.Sc. in Advanced studies in economics · KU Leuven - Belgium</h3><p>Coursework: Advanced Macroeconomics, Advanced Microeconomics, Advanced Econometrics, Advanced Applied Econometrics, Dynamic Methods. Master's Thesis (ongoing): <em>"Effects of State Aid in Tech Enterprises to Maintain Competitiveness: A Case for EU with a Single Knowledge Market in Europe"</em>.</p></div></div>
   
-  <div class="cv-item"><div class="cv-date">2023 - 2024</div><div><h3>M.Sc. in Economics · KU Leuven - Belgium· </h3><p>GPA: 14,9/20,0 (Cum Laude). Coursework: Industrial Organisation, Financial Intermediation, Econometrics, Micro/Macro Theory. Thesis: <em>"Urban Sprawl in Belgium: How Does Urban Sprawl Affect Local Government Expenditure Levels"</em>.</p></div></div>
+  <div class="cv-item"><div class="cv-date">2023 - 2024</div><div><h3>M.Sc. in Economics · KU Leuven - Belgium </h3><p>GPA: 14,9/20,0 (Cum Laude). Coursework: Industrial Organisation, Financial Intermediation, Econometrics, Micro/Macro Theory. Thesis: <em>"Urban Sprawl in Belgium: How Does Urban Sprawl Affect Local Government Expenditure Levels"</em>.</p></div></div>
   
   <div class="cv-item"><div class="cv-date">2013 - 2019</div><div><h3>B.Sc. in Economics  · Universidad del Pacífico - Peru</h3><p>Specialised in Economics and Finance. Highly quantitative degree with focus on microeconomics, macroeconomics, econometrics, applied econommics, and finance.</p></div></div>
 
@@ -55,20 +55,17 @@ My experience combines empirical research, microeconometric replication, data en
 
 <div class="skill-grid">
   <div class="skill-card"><strong>Applied econometrics</strong></div>
-  <div class="skill-card"><strong>Industrial organisation</strong></div>
-  <div class="skill-card"><strong>Microeconometrics</strong></div>
+  <div class="skill-card"><strong>Industrial economics</strong></div>
   <div class="skill-card"><strong>Monetary policy</strong></div>
-  <div class="skill-card"><strong>Financial economics</strong></div>
-  <div class="skill-card"><strong>Competition policy </strong>></div>
   <div class="skill-card"><strong>Macroeconometrics</strong></div>
-  <div class="skill-card"><strong>Spatial economics</strong></div>
+  <div class="skill-card"><strong>Microeconometrics</strong></div>
 </div>
 
 ## Technical skills
 
 <div class="skill-grid">
-  <div class="skill-card"><strong>R</strong><br><span class="muted">tidyverse, ggplot2, series de tiempo, reportes reproducibles.</span></div>
-  <div class="skill-card"><strong>Stata</strong><br><span class="muted">Microeconometric replication, panel data and cross-section analysis ,data cleaning, data management, and applied econometrics.  </span></div>
+  <div class="skill-card"><strong>R</strong><br><span class="muted">Data analysis, visualization, time-series work, spatial econometric analysis, and reproducible research workflows..</span></div>
+  <div class="skill-card"><strong>Stata</strong><br><span class="muted">Microeconometric replication, panel cleaning, data management, and applied econometrics.  </span></div>
   <div class="skill-card"><strong>Matlab</strong><br><span class="muted">Modelos semi-estructurales, escenarios y simulación macroeconómica.</span></div>
   <div class="skill-card"><strong>Python</strong><br><span class="muted">Procesamiento de datos, automatización, APIs y bases de gran escala.</span></div>
 
